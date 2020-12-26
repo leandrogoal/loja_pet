@@ -1,0 +1,56 @@
+* { box-sizing: border-box; }
+
+body {
+    font-family: verdana;
+    font-size:12px;
+}
+li{
+	list-style-type: none;
+}
+/* cabeçalho */
+.menu_primeiro{
+	background:#0068abff;
+	font-size: 11px;
+	font-family: verdana;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 130px;
+	padding-right: 50px;
+	min-height: 30px;
+	
+	
+}
+.menu_primeiro a{
+	color: #ffffff;
+}
+.menu_primeiro_email{
+	height: 20px;
+	font-size: 11px;
+}
+.menu_primeiro_senha{
+	height: 20px;
+	font-size: 11px;
+}
+.menu_primeiro_bot{
+	font-size: 10px;
+	font-weight: bold;
+	height: 20px;
+	padding-top: 2px;
+	color: #0068abff;
+}
+
+@media only screen and (max-width:730px){
+.menu_primeiro{
+	padding-left: 20px;
+}
+
+.image_topo img{
+	display: none;
+}
+.logo_topo{
+	margin-left: 60px;
+	margin-top: 10px;
+
+}
+}
